@@ -28,7 +28,7 @@ function createBoard() {
 
   deck.forEach(color => {
     const card = document.createElement("div");
-    card.classList.add("card", color);
+    card.classList.add("card");     // start face-down
     card.dataset.color = color;
 
     card.addEventListener("click", () => handleFlip(card));
@@ -41,7 +41,7 @@ function handleFlip(card) {
   if (card === firstCard) return;
   if (card.classList.contains("flipped")) return;
 
-  card.classList.add("flipped");
+  card.classList.add("flipped", card.dataset.color);
 
   if (!firstCard) {
     firstCard = card;
@@ -62,8 +62,8 @@ function checkMatch() {
     checkWin();
   } else {
     setTimeout(() => {
-      firstCard.classList.remove("flipped");
-      secondCard.classList.remove("flipped");
+      firstCard.classList.remove("flipped", firstCard.dataset.color);
+      secondCard.classList.remove("flipped", secondCard.dataset.color);
       resetTurn();
     }, 700);
   }
