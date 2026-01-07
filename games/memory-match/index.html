@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Memory Match | Memory Zone Jr.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="game.css" />
+</head>
+<body>
+
+  <main class="game-container">
+    <h1>Memory Match</h1>
+    <p class="subtitle">Flip the cards. Find the pairs.</p>
+
+    <div class="stats">
+      <span id="moves">Moves: 0</span>
+    </div>
+
+    <div id="game-board" class="game-board"></div>
+
+    <div id="win-message" class="win-message hidden">
+      🎉 You did it!
+      <button id="restart">Play Again</button>
+    </div>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
