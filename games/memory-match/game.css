@@ -42,25 +42,16 @@ h1 {
 .card {
   aspect-ratio: 3 / 4;
   border-radius: 14px;
-  background: #1f2933;
+  background: #1f2933; /* face-down */
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  font-weight: bold;
-  color: transparent;
   user-select: none;
-  transition: transform 0.2s ease, background 0.2s ease;
+  transition: transform 0.2s ease, background 0.25s ease;
 }
 
-.card.flipped {
-  color: #05060a;
-}
+.card.flipped.red { background: #ef4444; }
+.card.flipped.blue { background: #3b82f6; }
+.card.flipped.green { background: #22c55e; }
 
-.card.red { background: #ef4444; }
-.card.blue { background: #3b82f6; }
-.card.green { background: #22c55e; }
 
 .win-message {
   margin-top: 1.5rem;
