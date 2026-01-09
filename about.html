@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About | Memory Zone</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header (same vibe as home) -->
+  <header class="site-header">
+    <div class="logo">
+      <span class="logo-mark">MZ</span>
+      <div class="logo-text-group">
+        <span class="logo-text">Memory Zone</span>
+        <span class="logo-tagline">Practice. Improve. Feel capable.</span>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="index.html#hero">Home</a>
+      <a href="index.html#play">Play</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Hero -->
+  <section class="page-hero">
+    <h1>About Memory Zone</h1>
+    <p class="page-sub">
+      Memory Zone is a calm learning space built to help kids practice memory and focus
+      through short, game-based challenges — without pressure or overload.
+    </p>
+
+    <div class="page-cta">
+      <a class="btn primary" href="index.html#play">Try Memory Match</a>
+      <a class="btn secondary" href="index.html#contact">Stay Updated</a>
+    </div>
+  </section>
+
+  <!-- Main content -->
+  <main class="page-content">
+
+    <section class="content-block">
+      <h2>Why it exists</h2>
+      <p>
+        Some kids learn best when things are clear, calm, and repeated in a way that doesn’t
+        feel embarrassing. Memory Zone was built to be that kind of space — supportive,
+        simple, and confidence-building.
+      </p>
+    </section>
+
+    <section class="content-block content-alt">
+      <h2>How it helps</h2>
+      <div class="info-grid">
+        <div class="info-card">
+          <h3>Short + focused</h3>
+          <p>Quick games that train memory and attention without dragging on.</p>
+        </div>
+        <div class="info-card">
+          <h3>Calm design</h3>
+          <p>Low clutter, clean layout, and visuals that don’t overwhelm.</p>
+        </div>
+        <div class="info-card">
+          <h3>Confidence first</h3>
+          <p>It’s built to feel safe to try again — progress over perfection.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-block">
+      <h2>Who it’s for</h2>
+      <p>
+        Memory Zone is for kids who want a calmer way to practice, plus parents and teachers
+        who want tools that feel supportive. It’s especially helpful for learners who get
+        overwhelmed fast or prefer visual, structured practice.
+      </p>
+    </section>
+
+    <section class="content-block content-alt">
+      <h2>What’s next</h2>
+      <ul class="simple-list">
+        <li>More Memory Match themes (shapes, icons, patterns)</li>
+        <li>Difficulty levels (more pairs, bigger grids)</li>
+        <li>More mini-games focused on attention + problem-solving</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Memory Zone • Created by Perrin Owens</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
