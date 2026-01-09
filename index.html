@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Memory Zone Jr. | Learn Different. Grow Confident.</title>
+  <title>Memory Zone | Calm learning games</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -13,115 +13,111 @@
     <div class="logo">
       <span class="logo-mark">MZ</span>
       <div class="logo-text-group">
-        <span class="logo-text">Memory Zone Jr.</span>
-        <span class="logo-tagline">Learn Different. Grow Confident.</span>
+        <span class="logo-text">Memory Zone</span>
+        <span class="logo-tagline">Practice. Improve. Feel capable.</span>
       </div>
     </div>
 
     <nav class="nav">
       <a href="#hero">Home</a>
-      <a href="#mission">Mission</a>
+      <a href="#play">Play</a>
       <a href="#about">About</a>
       <a href="#features">Features</a>
       <a href="#who-for">Who It’s For</a>
-      <a href="#prototype">Game</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <!-- Hero -->
-  <section id="hero" class="hero">
+  <!-- Welcome / Hero -->
+  <section id="hero" class="hero hero-welcome">
     <div class="hero-text">
-      <h1>Learning for Different Minds.</h1>
-      <p>
-        Memory Zone Jr. is an educational game world built for kids ages 7–13
-        who learn best through visuals, repetition, and simple, focused practice.
+      <h1>Build memory. Build focus.<br />At your own pace.</h1>
+
+      <p class="hero-sub">
+        Memory Zone is a calm space to practice memory and attention through short,
+        game-based challenges — no pressure, no noise.
       </p>
 
       <div class="hero-buttons">
-        <a class="btn primary" href="#prototype">See the Game Plan</a>
-        <a class="btn secondary" href="#about">Learn the Vision</a>
+        <a class="btn primary" href="#play">Play Memory Match</a>
+        <a class="btn secondary" href="games/memory-match/index.html">Play Fullscreen</a>
+      </div>
+
+      <div class="trust-line" aria-label="Trust and safety note">
+        Designed for different learning styles. No ads. Just practice.
       </div>
     </div>
 
     <div class="hero-visual">
       <div class="mockup-box">
-        <p><strong>Game Preview</strong><br>Unity demo will live here soon.</p>
+        <p class="mockup-title">Quick Start</p>
+        <p class="mockup-body">Scroll down to play Memory Match right on the site.</p>
+
+        <ul class="mockup-list">
+          <li>Short games</li>
+          <li>Clear steps</li>
+          <li>Calm design</li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <!-- Mission -->
-  <section id="mission" class="section">
-    <h2>Our Mission</h2>
+  <!-- Play (Embedded Game) -->
+  <section id="play" class="section section-alt">
+    <h2>Play: Memory Match</h2>
     <p>
-      Memory Zone Jr. exists to help kids ages 7–13 build confidence through
-      simple, focused games that strengthen memory, attention, and problem-solving.
-      No pressure, no judgment — just steady progress and small wins that add up.
+      Flip the cards and find the pairs. Simple, focused practice — one match at a time.
     </p>
+
+    <iframe
+      src="games/memory-match/index.html"
+      title="Memory Match Game"
+      class="game-embed"
+      loading="lazy"
+    ></iframe>
+
+    <div class="play-links">
+      <a class="btn secondary" href="games/memory-match/index.html">Open Fullscreen</a>
+    </div>
   </section>
 
   <!-- About -->
-  <section id="about" class="section section-alt">
-    <h2>What Is Memory Zone Jr.?</h2>
+  <section id="about" class="section">
+    <h2>What Is Memory Zone?</h2>
     <p>
-      Memory Zone Jr. is a learning world designed for kids ages 7–13 who benefit
-      from short, structured activities that build memory, focus, and confidence.
-      Through playful mini-games and clear visuals, learners can practice skills
-      without feeling overwhelmed.
+      Memory Zone is an educational game space designed to help kids practice memory and focus
+      in a calm, supportive way. The games are short, clear, and built to feel encouraging —
+      not overwhelming.
     </p>
     <p>
-      The goal is to create tools the creator wished existed growing up — supportive,
-      welcoming spaces where students with ADHD, dyslexia, other learning differences,
-      or reading struggles can enjoy learning and feel capable every step of the way.
+      The goal is simple: help learners build confidence through practice that feels safe,
+      structured, and fun.
     </p>
-  </section>
-
-  <!-- Why It Works -->
-  <section id="why" class="section">
-    <h2>Why It Works</h2>
-
-    <div class="why-grid">
-      <div class="why-card">
-        <h3>🎮 Repetition Through Play</h3>
-        <p>Kids build memory with short, fun challenges instead of long, stressful tasks.</p>
-      </div>
-
-      <div class="why-card">
-        <h3>🎯 Clear Focus</h3>
-        <p>Simple screens and step-by-step tasks help learners stay calm and locked in.</p>
-      </div>
-
-      <div class="why-card">
-        <h3>🧩 Confidence Boost</h3>
-        <p>Small wins are celebrated so kids feel proud, capable, and ready to keep going.</p>
-      </div>
-    </div>
   </section>
 
   <!-- Features -->
   <section id="features" class="section section-alt">
-    <h2>What Memory Zone Jr. Aims To Do</h2>
+    <h2>What Memory Zone Aims To Do</h2>
 
     <div class="features-grid">
       <div class="feature-card">
-        <h3>Game-Based Learning</h3>
-        <p>Mini-games that train memory, attention, and recall in a fun, low-pressure way.</p>
+        <h3>Game-Based Practice</h3>
+        <p>Short challenges that strengthen memory, attention, and recall.</p>
       </div>
 
       <div class="feature-card">
-        <h3>Simple & Clear Design</h3>
-        <p>Clean layouts, clear steps, and easy controls made for brains that get distracted.</p>
+        <h3>Calm, Clear Design</h3>
+        <p>Simple layouts that reduce clutter and help learners stay focused.</p>
       </div>
 
       <div class="feature-card">
         <h3>Supportive Experience</h3>
-        <p>Built with neurodiverse learners in mind — ADHD, dyslexia, and more.</p>
+        <p>Built with different learning styles in mind — encouraging and judgment-free.</p>
       </div>
 
       <div class="feature-card">
-        <h3>Future Expansion</h3>
-        <p>More games, more levels, more themes — growing into a whole Memory Zone universe.</p>
+        <h3>Room to Grow</h3>
+        <p>More games, themes, and difficulty levels coming as the platform expands.</p>
       </div>
     </div>
   </section>
@@ -133,57 +129,37 @@
     <div class="who-grid">
       <div class="who-card">
         <h3>Students</h3>
-        <p>
-          Especially kids with ADHD, dyslexia, learning differences, or anyone who learns
-          better with visuals, repetition, and interactive practice.
-        </p>
+        <p>Kids who want a calmer way to practice memory and attention skills.</p>
       </div>
 
       <div class="who-card">
         <h3>Parents</h3>
-        <p>
-          Looking for constructive screen time that supports learning without turning into stress.
-        </p>
+        <p>Looking for supportive, low-stress practice tools that feel safe and simple.</p>
       </div>
 
       <div class="who-card">
         <h3>Teachers</h3>
-        <p>
-          Educators who want simple tools they can recommend for extra practice and confidence-building.
-        </p>
+        <p>Educators who want easy-to-share games for practice and confidence building.</p>
       </div>
     </div>
   </section>
 
-  <!-- Prototype / Game -->
-  <section id="prototype" class="section section-alt">
-  <h2>Play: Memory Match</h2>
-  <p>Flip the cards and find the pairs.</p>
-
-  <iframe
-    src="games/memory-match/index.html"
-    title="Memory Match"
-    class="game-embed"
-    loading="lazy"
-  ></iframe>
-</section>
-
-  <!-- Contact / Stay Updated -->
-  <section id="contact" class="section">
+  <!-- Contact -->
+  <section id="contact" class="section section-alt">
     <h2>Contact / Stay Updated</h2>
     <p>
-      Want updates on new features, early demos, and new games as they drop? Stay connected.
+      Want updates on new games, demos, and improvements? Stay connected.
     </p>
 
     <div class="contact-box">
-      <p><strong>Email:</strong> comingsoon@memoryzonejr.com</p>
+      <p><strong>Email:</strong> comingsoon@memoryzone.com</p>
       <p><strong>Socials:</strong> Coming soon</p>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="site-footer">
-    <p>© <span id="year"></span> Memory Zone Jr. • Created by Perrin Owens</p>
+    <p>© <span id="year"></span> Memory Zone • Created by Perrin Owens</p>
   </footer>
 
   <script>
@@ -191,3 +167,4 @@
   </script>
 </body>
 </html>
+
