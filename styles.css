@@ -107,6 +107,9 @@ body {
   font-size: 0.95rem;
   font-weight: 700;
   border: 1px solid transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn.primary {
@@ -129,9 +132,57 @@ body {
   border: 1px solid #27272a;
   background: radial-gradient(circle at top left, #1e293b, #020617);
   padding: 3rem 2rem;
-  text-align: center;
+  text-align: left;
   font-size: 0.95rem;
   color: #e5e7eb;
+}
+
+/* Welcome Hero upgrades */
+
+.hero-welcome .hero-sub{
+  margin-top: 0.75rem;
+  max-width: 46rem;
+  color: #e4e4e7;
+  font-size: 1.05rem;
+}
+
+.trust-line{
+  margin-top: 1rem;
+  display: inline-flex;
+  gap: 0.5rem;
+  padding: 0.5rem 0.9rem;
+  border: 1px solid #27272a;
+  border-radius: 999px;
+  color: #cbd5f5;
+  background: rgba(2, 6, 23, 0.6);
+  font-size: 0.9rem;
+}
+
+.mockup-title{
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.02em;
+}
+
+.mockup-body{
+  margin-bottom: 1rem;
+  color: #e5e7eb;
+}
+
+.mockup-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.5rem;
+  color: #cbd5f5;
+}
+
+.mockup-list li{
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #27272a;
+  border-radius: 12px;
+  background: rgba(5, 6, 10, 0.55);
 }
 
 /* Sections */
@@ -192,37 +243,11 @@ body {
   background: #05060a;
 }
 
-/* Why It Works */
-
-.why-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1rem;
-}
-
-.why-card {
-  border: 1px solid #27272a;
-  border-radius: 18px;
-  padding: 1.5rem;
-  background: #020617;
-}
-
-.why-card h3 {
+.who-card h3{
   margin-bottom: 0.5rem;
 }
 
-/* Prototype placeholder */
-
-.prototype-placeholder {
-  margin-top: 1.5rem;
-  border-radius: 20px;
-  border: 1px dashed #4b5563;
-  padding: 2.5rem 1.5rem;
-  text-align: center;
-  font-size: 0.95rem;
-  color: #cbd5f5;
-}
+/* Embedded Game */
 
 .game-embed {
   width: 100%;
@@ -232,6 +257,13 @@ body {
   background: #05060a;
   overflow: hidden;
   display: block;
+}
+
+.play-links{
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 /* Contact */
